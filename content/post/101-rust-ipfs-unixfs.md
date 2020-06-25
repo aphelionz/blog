@@ -32,7 +32,7 @@ a suitable abstraction.
 [ipfs-unixfs]: https://crates.io/crates/ipfs-unixfs
 
 > To recap: [MerkleDAG is the outer protocol buffers description] for
-documents (or blocks) which can contain arbitrary inner bytes. Together,
+documents (or blocks) which can contain arbitrary inner bytes. Together
 with UnixFS blocks, these bytes correspond to [UnixFS messages].
 
 The operation needed when walking across multiple blocks is "loading the next
