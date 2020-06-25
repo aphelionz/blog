@@ -109,7 +109,7 @@ of the next `Walker`. One will exist if there are still links to walk.
 
 In short, these two operations **retrieve** data from MerkleDAGs and, in the
 process, fetch the required blocks from the network. [`/cat`] can only process
-UnixFS blocks of type `File` or `Raw`, while [`/get`] can start from either
+UnixFS blocks of type `File` or `Raw`, while [`/get`] can start from a
 block of type `Directory`, `File` or `Symlink`.
 
 Depending on the type of the block, the walk will only consist of a single
