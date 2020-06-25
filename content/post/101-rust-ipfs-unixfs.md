@@ -66,7 +66,7 @@ the path inside the graph for any entries.
 
 While `Walker::pending_links` may have a gnarly-looking signature, at
 the same time it communicates an important invariant of the API: whenever there
-exists a `Walker` value, there must be pending links to load. This also means
+exists a `Walker` value, there must be some pending links to load. This also means
 that the calling code does not have to deal with unwrapping an `Option<Cid>`
 from an `Iterator::next`, but can just get the next `Cid` as follows:
 
