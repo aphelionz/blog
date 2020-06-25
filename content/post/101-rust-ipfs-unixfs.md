@@ -48,7 +48,7 @@ implementation itself. This should have multiple benefits: any store integration
 compose the higher level operations out of the lower level pieces.
 
 So, instead of having an `ipfs_unixfs::GetBlock` or `ipfs_unixfs::BlockStore`
-trait, currently the `ipfs_unixfs::walk::Walker` has an API like this:
+trait, the `ipfs_unixfs::walk::Walker` currently has an API like this:
 
 ```rust
 impl Walker {
