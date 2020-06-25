@@ -18,7 +18,7 @@ and the HTTP APIs `/get`, and `/cat`.
 
 ## The [ipfs-unixfs] crate
 
-You can review what UnixFS _is_ in our [previous post], but for right now
+You can review what UnixFS _is_ in our [previous post], but for now
 it's enough to know that a proper UnixFS implementation is basically
 about two things:
 
