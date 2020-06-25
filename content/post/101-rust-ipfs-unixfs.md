@@ -61,7 +61,7 @@ impl Walker {
 ```
 
 The creation of `ipfs_unixfs::walk::Walker` is possible only with a root or
-start `Cid` and an optional path name to the root document `Walker` tracks
+start `Cid` and an optional path name to the root document. `Walker` tracks
 the path inside the graph for any entries.
 
 While `Walker::pending_links` may have a gnarly-looking signature, at
