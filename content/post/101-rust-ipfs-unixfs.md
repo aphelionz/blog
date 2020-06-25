@@ -144,7 +144,7 @@ addition to the `ipfs::Ipfs::cat_unixfs` API, which currently returns an
 `Future` of the `Stream` of bytes -- instead it should return a `Future` of a
 `File` description, which would in turn contain the stream of bytes.
 
-## How you can get involved?
+## How you can get involved
 
 - Try out [Rust IPFS] and provide feedback via GitHub issues
 - Check out the [good first issue] and [help wanted] labels in the Rust IPFS repo
