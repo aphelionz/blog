@@ -26,7 +26,7 @@ about two things:
 fairly straightforward.
 2. An ability to "walk" across multiple blocks via the MerkleDAG. This is
 much more difficult and, as such, most of the work went into finding
-a suitable abstraction
+a suitable abstraction.
 
 [previous post]: https://medium.com/equilibriumco/the-road-to-unixfs-f3cf5222b2ef
 [ipfs-unixfs]: https://crates.io/crates/ipfs-unixfs
