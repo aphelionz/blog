@@ -64,7 +64,7 @@ The creation of `ipfs_unixfs::walk::Walker` is possible only with a root or
 start `Cid` and an optional path name to the root document `Walker` tracks
 the path inside the graph for any entries.
 
-While `Walker::pending_links(&self)` may have a gnarly-looking signature, but at
+While `Walker::pending_links` may have a gnarly-looking signature, at
 the same time it communicates an important invariant of the API: whenever there
 exists a `Walker` value, there must be pending links to load. This also means
 that the calling code does not have to deal with unwrapping an `Option<Cid>`
