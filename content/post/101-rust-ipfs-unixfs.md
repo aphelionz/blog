@@ -79,7 +79,7 @@ pre-fetching the `Cid`s from the network. When walking a directory,
 `prefetchable_links` will contain unvisited links to entries under the
 directory. However, following an opening of a multi-block file,
 `prefetchable_links` would now contain the next, most important, links for the
-file. Since files can expand on every block before hitting the leaf level, there
+file. Since files can expand on every block before hitting the leaf level, it
 can be a long time before any of the previously seen "prefetchable" blocks are
 ready to be processed.
 
