@@ -133,11 +133,6 @@ It might be that the type in the signature should be changed to
 [`/cat`]: https://docs.ipfs.io/reference/http/api/#api-v0-cat
 [`/get`]: https://docs.ipfs.io/reference/http/api/#api-v0-get
 
-### Open Question: File Metadata
-
-A question raised by the use of `Vec<u8>` might be something like _"How can
-the caller access any UnixFSv1.5 metadata the file may have?"_
-
 File metadata could potentially be handled by first returning a
 value which would contain the eventual stream of bytes. This would be a welcome
 addition to the `ipfs::Ipfs::cat_unixfs` API, which currently returns an
